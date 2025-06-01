@@ -2,43 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Letter to Eileen Dover</title>
+<meta name="author" content="Eileen Dover">
+  <title>Letter</title>
   <style>
     body {
-      font-family: Georgia, serif;
-      line-height: 1.6;
       max-width: 600px;
-      margin: 40px auto;
-      padding: 0 20px;
+      margin: 0 auto;
     }
-
-    header, section, footer {
-      margin-bottom: 20px;
-    }
-
-    address {
-      font-style: normal;
-      line-height: 1.4;
-    }
-
-    h1 {
-      font-size: 1.2em;
-      margin-top: 40px;
-    }
-
-    .signature {
-      margin-top: 40px;
-    }
-
-    em {
-      font-style: italic;
-    }
+.sender{
+text-align=right;}
   </style>
 </head>
 <body>
 
-  <header>
-    <address>
+
+    <address class=sender>
       <strong>Dr. Eleanor Gaye</strong><br>
       Awesome Science Faculty<br>
       University of Awesome<br>
@@ -48,10 +26,10 @@
       Tel: 123-456-7890<br>
       Email: no_reply@example.com
     </address>
-  </header>
+ 
 
-  <section>
-    <p>20 January 2016</p>
+
+    <p classs=sender>20 January 2016</p>
 
     <address>
       Miss Eileen Dover<br>
